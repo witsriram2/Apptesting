@@ -2,4 +2,6 @@ version: 0.0
 os: windows
 files:
   - source: \index.html
-    destination: C:\inetpub\wwwroot
+    destination: C:\inetpub\wwwroot\AppTest
+	
+
