@@ -3,3 +3,9 @@ os: windows
 files:
   - source: \index.html
     destination: C:\inetpub\wwwroot\apptest
+
+
+hooks:
+  BeforeInstall:
+    - location: \before-install.bat
+      timeout: 900
