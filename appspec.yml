@@ -8,4 +8,4 @@ files:
 hooks:
   ApplicationStop:
     - location: \before-install.bat
-      timeout:900
+      timeout: 900
