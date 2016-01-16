@@ -6,6 +6,6 @@ files:
 
 
 hooks:
-  BeforeInstall:
+  ApplicationStop:
     - location: \before-install.bat
       timeout: 900
